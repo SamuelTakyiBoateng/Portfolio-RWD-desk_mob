@@ -304,7 +304,7 @@ h1 {
 .work1Link:hover {
   background-color: #fff;
   border: 2px solid rgba(245, 88, 0, 1);
-  color: rgba(255, 245, 225, 1);
+  color: rgba(245, 88, 0, 1);
   transition: 0.5s;
 }
 
