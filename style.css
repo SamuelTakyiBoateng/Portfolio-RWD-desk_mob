@@ -50,6 +50,21 @@ nav a {
 
 /* header section RWD- desktop-mobil */
 @media (max-width: 768px) {
+
+	.mainMenu {
+		height: 100vh;
+		position: fixed;
+		top: 0px;
+		right: 0px;
+		left: 0px;
+		z-index: 10;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: rgb(0, 0, 0);
+		transition: top 1s ease 0s;
+		display: none;
+	}
 	
 	.openMenu,
 	.closeMenu {
