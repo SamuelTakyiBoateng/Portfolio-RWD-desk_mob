@@ -74,7 +74,7 @@ nav a {
     right: 20px;
   }
 
-  .menu_items {
+  .menu_Items {
     /* background: red; */
     color: rgb(255, 123, 0);
     font-size: 2rem;
@@ -90,7 +90,7 @@ nav a {
 Align: Left */
   }
 
-  .menu_items:hover {
+  .menu_Items:hover {
     background: red;
     color: rgb(255, 123, 0);
     font-size: 1.5rem;
