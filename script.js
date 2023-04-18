@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 /**************Selection of Elements************/
 //Harburger-mobile view only
 const mainMenu = document.querySelector(".mainMenu");
@@ -15,8 +15,6 @@ function show() {
 function close() {
 	mainMenu.style.top = "-100%";
 }
-
-
 
 openMenu.addEventListener("click", show);
 closeMenu.addEventListener("click", close);
