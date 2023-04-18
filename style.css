@@ -59,8 +59,9 @@ nav a {
 		left: 0px;
 		z-index: 10;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+		justify-content: left;
+		padding-top: 20%;
+		align-items: left;
 		background: rgb(0, 0, 0);
 		transition: top 1s ease 0s;
 		display: none;
