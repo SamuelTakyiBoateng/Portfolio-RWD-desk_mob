@@ -14,22 +14,34 @@
 			rel="stylesheet"
 			href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+			integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o="
+			crossorigin="anonymous"
+		/>
 		<link rel="stylesheet" href="style.css" />
 		<title>Portfolio</title>
 	</head>
 	<body>
 		<!-- header section -->
-		<header>
+		<header id="portfolio">
 			<a href="#" class="logo">Sam-TB</a>
 			<nav>
-				<div class="barsIcon"><i class="uil uil-bars"></i></div>
-				<ul>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#about-me">About</a></li>
-					<li><a href="#contact-me">Contact</a></li>
+				<!-- <div class="barsIcon"><i class="uil uil-bars"></i></div> -->
+				<div class="openMenu"><i class="fa fa-bars"></i></div>
+				<ul class="mainMenu">
 					<li>
-						<a href="email"><i class="uil uil-envelope"></i></a>
+						<a href="#portfolio" class="menu_Items">Portfolio</a>
 					</li>
+					<li><a href="#about-me" class="menu_Items">About</a></li>
+					<li >
+						<a href="#contact-me" class="menu_Items">Contact</a>
+					</li>
+					<li class="menu_Items">
+						<a href="#email"><i class="uil uil-envelope"></i></a>
+					</li>
+					<div class="closeMenu"><i class="fa fa-times"></i></div>
 				</ul>
 			</nav>
 		</header>
@@ -95,6 +107,7 @@
 				<div id="background-img" class="background-img"></div>
 			</div>
 		</section>
+		
 		<!-- Part 2 Works -->
 		<section>
 			<div class="works">
@@ -272,7 +285,7 @@
 			</div>
 		</section>
 		<!-- About Me section -->
-		<section>
+		<section id="about-me">
 			<div class="aboutMe">
 				<h2 class="aboutMeTitle">About me</h2>
 				<p class="aboutMeDescription">
@@ -343,7 +356,7 @@
 				</div>
 			</div>
 		</section>
-		<section>
+		<section id="contact-me">
 			<div class="contact">
 				<div class="contactIntro">
 					<p>
@@ -451,5 +464,6 @@
 				</ul>
 			</div>
 		</footer>
+		<script src="script.js"></script>
 	</body>
 </html>

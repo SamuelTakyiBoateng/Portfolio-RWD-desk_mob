@@ -43,20 +43,82 @@ nav a {
   font-weight: 700;
 }
 
-nav ul {
+.mainMenu {
   display: flex;
   gap: 1.5rem;
 }
 
 /* header section RWD- desktop-mobil */
 @media (max-width: 768px) {
-  nav ul {
+  .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 20%;
+    align-items: left;
+    background: rgb(0, 0, 0);
+    transition: top 1s ease 0s;
     display: none;
+  }
+
+  .openMenu,
+  .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .menu_Items {
+    /* background: red; */
+    color: rgb(255, 123, 0);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 85%;
+    margin-left: 5%;
+
+    /* align-items: left;
+	Font style: Bold
+	Font size: 32px */
+
+    /* Line height: 114%
+Align: Left */
+  }
+
+  .menu_Items:hover {
+    background: red;
+    color: rgb(255, 123, 0);
+    font-size: 1.5rem;
   }
 }
 
+/* height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    transition: top 1s ease 0s; */
+
+/*
+    nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    } */
 @media (min-width: 768px) {
-  .barsIcon {
+  .openMenu,
+  .closeMenu {
     display: none;
   }
 }
