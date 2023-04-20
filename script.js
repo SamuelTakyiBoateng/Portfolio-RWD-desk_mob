@@ -209,4 +209,84 @@ const createButton = (className, dataset, text) => {
 };
 
 
+// Function Expressions to add top project
+const createtopProjectCon = () => {
+	const topProjectEl = createElement("div", "project1");
+
+	const project1Image = createElement("div", "project1Image");
+	topProjectEl.appendChild(project1Image);
+
+	const image1 = createElement("img", "image1");
+	image1.src = topProjectObj.image;
+	project1Image.appendChild(image1);
+
+	const project1Info = createElement("div", "project1Info");
+	topProjectEl.appendChild(project1Info);
+
+	const project1Title = createElement("h3", "project1Title");
+	project1Title.innerHTML = topProjectObj.title;
+	project1Info.appendChild(project1Title);
+
+	const project1Description = createElement("p", "project1Description");
+	project1Description.innerText = topProjectObj.description;
+	project1Info.appendChild(project1Description);
+
+	const project1Languages = createList(
+		topProjectObj.technologies,
+		"project1Languages"
+	);
+	project1Info.appendChild(project1Languages);
+
+	const project1LinkBtn = createButton(
+		"project-btn",
+		topProjectObj.dataset,
+		"See Project"
+	);
+	project1Info.appendChild(project1LinkBtn);
+
+	return topProjectEl;
+};
+
+// Function Expressions to add topProject into index.html using the projectContainer div class.
+const topProjectCon = createElement("div", "topProjectCon");
+projectContainer.appendChild(topProjectCon);
+topProjectCon.appendChild(createtopProjectCon());
+
+// Function Expressions to add other projects
+const createOtherProject = (otherProject) => {
+	const otherProjectEl = createElement("div", "otherProject");
+	otherProjectEl.id = otherProject.backgroundImgId;
+
+	const otherProjectInfo = createElement("div", "otherProjectInfo");
+	otherProjectEl.appendChild(otherProjectInfo);
+
+	const otherProjectTitle = createElement("h3", "otherProjectTitle");
+	otherProjectTitle.innerHTML = otherProject.title;
+	otherProjectInfo.appendChild(otherProjectTitle);
+
+	const otherProjectDescription = createElement(
+		"p",
+		"otherProjectDescription"
+	);
+	otherProjectDescription.innerText = otherProject.description;
+	otherProjectInfo.appendChild(otherProjectDescription);
+
+	const otherProjectLanguages = createList(
+		otherProject.technologies,
+		"otherProjectLanguages"
+	);
+	otherProjectInfo.appendChild(otherProjectLanguages);
+
+	const otherProjectLink = createElement("div", "otherProjectLink");
+	otherProjectEl.appendChild(otherProjectLink);
+
+	const otherProjectLinkBtn = createButton(
+		"project-btn",
+		otherProject.dataset,
+		"See Project"
+	);
+	otherProjectLink.appendChild(otherProjectLinkBtn);
+
+	return otherProjectEl;
+};
 
