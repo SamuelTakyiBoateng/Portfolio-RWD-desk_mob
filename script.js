@@ -100,7 +100,7 @@ const modalProjects = [
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
-    image: './images/1-image.png',
+    image: './images/Snapshoot Portfolio.jpg',
     technologies: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
     liveLink: 'https://samueltakyiboateng.github.io/',
     sourceLink: 'https://github.com/SamuelTakyiBoateng/Portfolio-RWD-desk_mob',
@@ -110,7 +110,7 @@ const modalProjects = [
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
-    image: './images/2-image.png',
+    image: './images/Snapshoot Portfolio.jpg',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: 'https://samueltakyiboateng.github.io/',
     sourceLink: 'https://github.com/SamuelTakyiBoateng/Portfolio-RWD-desk_mob',
@@ -120,7 +120,7 @@ const modalProjects = [
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
-    image: './images/3-image.png',
+    image: './images/Snapshoot Portfolio.jpg',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: 'https://samueltakyiboateng.github.io/',
     sourceLink: 'https://github.com/SamuelTakyiBoateng/Portfolio-RWD-desk_mob',
@@ -130,7 +130,7 @@ const modalProjects = [
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
-    image: './images/4-image.png',
+    image: './images/Snapshoot Portfolio.jpg',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: 'https://samueltakyiboateng.github.io/',
     sourceLink: 'https://github.com/SamuelTakyiBoateng/Portfolio-RWD-desk_mob',
@@ -140,7 +140,7 @@ const modalProjects = [
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
-    image: './images/2-image.png',
+    image: './images/Snapshoot Portfolio.jpg',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: 'https://samueltakyiboateng.github.io/',
     sourceLink: 'https://github.com/SamuelTakyiBoateng/Portfolio-RWD-desk_mob',
@@ -150,7 +150,7 @@ const modalProjects = [
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
-    image: './images/3-image.png',
+    image: './images/Snapshoot Portfolio.jpg',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: 'https://samueltakyiboateng.github.io/',
     sourceLink: 'https://github.com/SamuelTakyiBoateng/Portfolio-RWD-desk_mob',
@@ -160,7 +160,7 @@ const modalProjects = [
     description: `A daily selection of privately personalized reads; no accounts or  sign-ups required. has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a standard dummy text.
     
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
-    image: './images/4-image.png',
+    image: './images/Snapshoot Portfolio.jpg',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: 'https://samueltakyiboateng.github.io/',
     sourceLink: 'https://github.com/SamuelTakyiBoateng/Portfolio-RWD-desk_mob',
