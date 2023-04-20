@@ -283,7 +283,7 @@ otherProjects.forEach((otherProject) => {
 /** *********************Modal/Popup Section ********************************* */
 function projectModal(e) {
   const docFragment = document.createDocumentFragment();
-  const projectCardInfo =	modalProjects[parseInt(e.target.dataset.projectbtn, 10)];
+  const projectCardInfo = modalProjects[parseInt(e.target.dataset.projectbtn, 10)];
 
   const popupContainer = createElement('div', 'popupContainer');
 
@@ -330,7 +330,7 @@ function projectModal(e) {
   popupLinkContainer.appendChild(liveLink);
 
   const sourceLink = createElement('a', 'sourceLink');
-  sourceLink.innerHTML =	'See source&nbsp;&nbsp;<i class="uil uil-github"></i>';
+  sourceLink.innerHTML = 'See source&nbsp;&nbsp;<i class="uil uil-github"></i>';
   sourceLink.href = projectCardInfo.sourceLink;
   popupLinkContainer.appendChild(sourceLink);
 
