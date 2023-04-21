@@ -358,8 +358,8 @@ function projectModal(e) {
 const projectsBtn = document.querySelectorAll('.project-btn');
 projectsBtn.forEach((btn) => btn.addEventListener('click', projectModal));
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//********************Form Validation Section****************************//
+/// ////////////////////////////////////////////////////////////////////////////////////////////
+//* *******************Form Validation Section****************************//
 const form = document.getElementById('form');
 const email = document.getElementById('email');
 const errorMessage = document.querySelector('.errorMessage');

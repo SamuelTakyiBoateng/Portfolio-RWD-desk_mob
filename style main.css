@@ -740,7 +740,7 @@ h1 {
   color: #ff3860;
   font-size: 0.75rem;
   height: 0.75rem;
-} 
+}
 
 input[type="text"],
 input[type="email"] {
@@ -828,6 +828,7 @@ button[type="submit"]:disabled {
     justify-content: left;
   }
 }
+
 /* contact section ends */
 .footer {
   width: 100%;
