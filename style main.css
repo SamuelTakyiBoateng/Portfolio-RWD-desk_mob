@@ -736,6 +736,12 @@ h1 {
   width: 100%;
 }
 
+.input-control .errorMessage {
+  color: #ff3860;
+  font-size: 0.75rem;
+  height: 0.75rem;
+}
+
 input[type="text"],
 input[type="email"] {
   width: 100%;
@@ -790,12 +796,6 @@ button[type="submit"]:disabled {
   color: #5b5957;
 }
 
-@media (max-width: 768px) {
-  .contactForm .sname {
-    display: none;
-  }
-}
-
 @media (min-width: 768px) {
   .contact {
     display: grid;
@@ -829,6 +829,7 @@ button[type="submit"]:disabled {
   }
 }
 
+/* contact section ends */
 .footer {
   width: 100%;
   background-color: #fff;
