@@ -736,7 +736,11 @@ h1 {
   width: 100%;
 }
 
-
+.input-control .errorMessage {
+  color: #ff3860;
+  font-size: 0.75rem;
+  height: 0.75rem;
+} 
 
 input[type="text"],
 input[type="email"] {
