@@ -27,7 +27,6 @@ menuItems.forEach((item) => {
 });
 // Ends
 
-/// //////////////////////////////////////////////////////////////////////////////////////////
 const bodyTag = document.querySelector('body');
 const projectContainer = document.querySelector('.works');
 
